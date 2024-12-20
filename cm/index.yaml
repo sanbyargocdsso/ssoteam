@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-html
+  namespace: sanby
+data:
+  index.html: |
+    change for argoCD
+
+    9837
